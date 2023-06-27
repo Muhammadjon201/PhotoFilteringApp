@@ -16,8 +16,7 @@ class HomeViewController: UIViewController {
     
     lazy var img: UIImageView = {
         let img = UIImageView()
-        //img.image = UIImage(named: "Cat")
-        img.backgroundColor = .systemMint
+        img.image = UIImage(named: "placeholderImage")
         return img
     }()
     
